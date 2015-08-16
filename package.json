@@ -1,0 +1,21 @@
+{
+  "name": "express.rest.apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "~4.1.2",
+    "body-parser": "~1.13.3"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "nodemon": "~1.4.1"
+  }
+}
