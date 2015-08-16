@@ -4,20 +4,13 @@ var mongoose = require('mongoose');
 var schema = mongoose.Schema();
 
 var model = new schema({
-  title: {
-    type: 'String'
-  },
-  author: {
+  name: {
     type: 'String'
   },
   gender: {
     type: 'String'
-  },
-  read: {
-    type: 'Boolean',
-    default: false
   }
 
 });
 
-module.exports = mongoose.model('Book', model);
+module.exports = mongoose.model('Author', model);
